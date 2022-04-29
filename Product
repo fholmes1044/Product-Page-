@@ -1,0 +1,67 @@
+<style> 
+.container{border: solid 2px; 
+  display:flex;
+   flex-direction:column;}
+
+header{
+width:100%; position:fixed; }
+@media(max-width:100) {div{color:red;}}
+
+
+#submit{
+	width:100px;
+	padding:10px;
+	margin:10px;
+}
+</style> 
+<header id="header">
+  <img src="https://lh3.googleusercontent.com/1ymClJn34kFWY2y00iMOfA4N21Ue2QDczHR1xOZMGuLHTDc_OHrv5C4nneDGflZbRBOzm7IR3aOz_M4dIkKAM9ObIU9f3yU2N-XYpB8CTYz9ctGKcMnLa8bnqi1Ppoo6c5TPzRwZLJvlqcJVz1VsOvftf0uLT-7lG-dSpWVOdQxuLLFqjNgn2faNMIQ1nVGHt2wqMXeBPuoR61ZqqvCmPLhajI-q1E_56K8sz9XKWw744Z0LHVJKShtwbOXWdF7L1pLmM8mlRdznW0H-HyNATDb-0TAUrhLQ_7wmH1abD_4hOFIPzCNduQOE3LADa_yX5akmt7kGB4LWfFTRlWcyRx7ysDaD_ViOW2_CKYi1oCf5BLUL0BFfl5jZxYTGeHplfYbi-Q7JTHihhLrrADvWv8G-q2kHI-nQYRivcqkiNIWBy3pCP-oTMGUhtvWzqthPzwvAeVDds7YRD4RIO8s11laPD3Bxa5cmoAmqN00obNhisUg2ZS9lLU3Mqrr9n7nMqIc_CxUKDhRLCvlwnZjf-mhSpuJhzVP5jRXPk_P2bH18mZGuxuNeI-tjqkFLnDiFNxk6tGFE5xD77K5fjmfs3wT1V5-nzoaG3_VsLKvgyskufEdbjQujac_BjZzHiWu1eqh5kdLMziR8QztB_TIM08jr9U2tf0AokZcnWXetv_9f1WXb9SRE0ffTogxiX-R2lArue-blKCoo84f2X-qW7FVqDvhFJUF5nymqznCXe1GdkMkLBrQ29KtZd50tyj7YQxc2FZgzuJ8jNnSFp4YFBj425T5PkstXBWBdKZ5-eDHH7YZd5zMh2_uV4BIHGjL63Bch0s4=w351-h89-no?authuser=0" id="header-img" width=300px>
+
+
+<nav id="nav-bar">
+  <a href="#felt" class="nav-link"> Our Felt-Tip Pens </a> |    |
+  
+  <a href="#ballpoint" class="nav-link" >Our Ballpoint Pens </a> | |
+  
+  <a href="#fountain"class="nav-link" > Our Fountain Pens </a> 
+</nav>
+ </header>
+<body>
+<br>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+   
+  <input type="email" id="email" name="email" placeholder="What is your email?" required>
+  
+  <input id="submit" type="submit" Value="Let's Talk" class="button">
+    
+</form>
+<br>
+
+     
+<br>
+<iframe width="400" height="300"
+src="https://www.youtube.com/watch?v=rpwkXlsi8Ow" id="video">
+</iframe>
+<br>
+<br>
+<div class="container"> 
+  <div class="item"> Best Materials ✅</div>
+  <div class="item"> Fast Shipping✅ </div>
+  <div class="item"> Quality Assurance ✅</div>
+</div>
+  <div class="feltpens" id="felt">
+    About the Felt Pens 
+  </div>
+<div class="ballpoint" id="ballpoint">
+  About the Ballpoint Pens 
+</div>
+
+<div class="fountainpens" id="fountain">
+  About the Fountain Pens 
+</div>
+  
+  
+</body>
+<br>
+<br>
+<br>
